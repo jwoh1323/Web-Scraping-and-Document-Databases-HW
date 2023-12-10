@@ -32,7 +32,7 @@ def scrape():
 
     # store the current Featured Mars Image and assign the url string to a variable 
 
-    url = 'https://www.jpl.nasa.gov/spaceimages/?search=&category=Mars'
+    url = 'https://www.jpl.nasa.gov/images?topics=Mars'
     browser.visit(url)
 
     html = browser.html
